@@ -3,21 +3,23 @@
 <html>
 <head>
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 <body>
 <div class="container">
     <div class="row">
-        <div class="col-md-6">
-            <img src="http://i557.photobucket.com/albums/ss13/Adithya596/rsz_ad_zps4pvk04ep.jpg">
+        <div class="col-md-3">
+            <img src="images/AD.jpg">
         </div>
-        <div class="col-md-6 text-right text-uppercase">
+        <div class="col-md-9 text-right text-uppercase">
             <h1>Adithya Mahesh Bariki</h1>
-            <h3>Recent Computer Science Graduate</h3>
+            <h3>Actively Seeking Full Time Opportunities</h3>
         </div>
     </div>
     <div class="row">
         <div class="col-md-12">
-            <img class="img-responsive" src="http://i557.photobucket.com/albums/ss13/Adithya596/mwsu_zpsxoqixsx5.jpg">
+            <img class="img-responsive" src="images/mwsu.jpg">
         </div>
     </div>
     <div class="row">
@@ -27,26 +29,102 @@
     </div>
     <div class="row">
         <div class="col-md-6 text-center">
-            <img class="img-responsive" src="http://i557.photobucket.com/albums/ss13/Adithya596/Capture_zpsk8mcx5og.png">
+            <img class="img-responsive" src="images/ATM.png" data-toggle="modal" data-target="#project1">
             <h3>FT-ATM</h3>
             <p><a href="https://github.com/adithyamahesh596/FT-ATM">https://github.com/adithyamahesh596/FT-ATM</a></p>
         </div>
         <div class="col-md-6 text-center">
-            <img class="img-responsive" src="http://i557.photobucket.com/albums/ss13/Adithya596/rsz_1logo2_zpsf10umjoh.png" alt="React Logo">
+            <img class="img-responsive" src="images/logo.png" alt="React Logo" data-toggle="modal" data-target="#project2">
             <h3>REACT</h3>
             <p><a href="https://github.com/adithyamahesh596/React">https://github.com/adithyamahesh596/React</a></p>
         </div>
     </div>
     <div class="row">
         <div class="col-md-6 text-center">
-            <img class="img-responsive" src="http://i557.photobucket.com/albums/ss13/Adithya596/rsz_node-express-sendfile_zpswzuew3ak.jpg">
+            <img class="img-responsive" src="images/node.jpg" data-toggle="modal" data-target="#project3">
             <h3>LIBRARY APP WITH NODE AND EXPRESS</h3>
             <p><a href="https://github.com/adithyamahesh596/Library_App_with_Nodejs_And_Express">https://github.com/adithyamahesh596/Library_App_with_Nodejs_And_Express</a></p>
         </div>
         <div class="col-md-6 text-center">
-            <img class="img-responsive" src="http://i557.photobucket.com/albums/ss13/Adithya596/bin_zpsrrlhpbkc.jpg">
+            <img class="img-responsive" src="images/bin.JPG" data-toggle="modal" data-target="#project4">
             <h3>SHELL INTERPRETATION</h3>
             <p><a href="https://github.com/adithyamahesh596/5143-OpSys-bariki/tree/master/YO-Shell.v.1">https://github.com/adithyamahesh596/5143-OpSys-bariki/tree/master/YO-Shell.v.1</a></p>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+            </div>
+            <div class="modal-body">
+                <img class="img-responsive" src="images/ATM.png">
+                This one of the most interesting projects of mine. I implemented this project using Java with the help of
+                Heartbeat protocol to handle the connectors.The main theme of the project if the main server fails we should
+                the backup server. Instead of creating two servers, I just created the instances of server i.e., when the main
+                server fails the backup server starts.Finally, this project gave me a hands on experience on Java.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal2 -->
+<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel2">Favorite App Page</h4>
+            </div>
+            <div class="modal-body">
+                <img class="img-responsive" src="images/logo.png">
+                This was my first project in this class. I learned a lot about HTML and CSS.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal3 -->
+<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel3">Favorite App Page</h4>
+            </div>
+            <div class="modal-body">
+                <img class="img-responsive" src="images/node.jpg">
+                This was my first javascript project using a particular library. With this project, I became familiar with
+                several code editors which made my code beautiful and indented and moreover node with express is a wonderful
+                combination.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel4">Favorite App Page</h4>
+            </div>
+            <div class="modal-body">
+                <img class="img-responsive" src="images/bin.JPG">
+                This was one of my course work projects. In this project, I learnt a lot about shell scripting, moreover I implemented
+                some of the shell commands using Python.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
         </div>
     </div>
 </div>
