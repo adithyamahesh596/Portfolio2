@@ -1,0 +1,7 @@
+got some handson experience on how to use bower and npm where bower is frontend package manager and npm is the backend package manager.
+Node is an Open source server side runtime environment which is truly cross platform which uses javascript as its language.
+Express is an web development framework used in Node.js which is very light weight, unopinionated and minimalist which handle routing, rendering which resides in npm.
+Gulp is a task manager for web projects which is package based and very easy to use.
+used jshint for codes standards and jscs for code style.
+Jade runs through jade compiler
+Handlebars is a minimalist templating engine operates as javascript and allows variables to be passed.  
